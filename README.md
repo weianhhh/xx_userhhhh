@@ -1,6 +1,6 @@
 # xx_userhhh
-我是萌新，不要喷我
-I'm freshman don't spray me.
+我是萌新，不要喷我 <br>
+I'm freshman don't spray me.<br>
 ##杂谈
 
 [C语言篇](#1.*__C语言数组的越界访问__*)
