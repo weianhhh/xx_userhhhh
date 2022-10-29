@@ -1,13 +1,13 @@
 # xx_userhhh
 我是萌新，不要喷我 <br>
 I'm freshman don't spray me.<br>
-##杂谈
+####杂谈
 
-[C语言篇](#1.*__C语言数组的越界访问__*)
+[C语言篇](#C语言篇)
 
-[汇编篇](#1.汇编啊额)
+[汇编篇](##汇编语言篇)
 
-[TCP/IP篇待续...](#1.*__汇编啊额__*)
+[TCP/IP篇待续...](###TCP/IP)
 
 <font color="#00ff00">文章是有关C和汇编的</font>
 
@@ -15,7 +15,8 @@ I'm freshman don't spray me.<br>
 
 注意的地方有
 
-#1.*__C语言数组的越界访问__*
+#C语言篇
+1.*__C语言数组的越界访问__*
 
 ```
 
@@ -215,7 +216,8 @@ int main(){
 
 指针就不讲了，后面再看~~
 
-#1.*__汇编啊额__*
+##汇编语言篇
+1.*__汇编啊额__*
 
 ```
 
@@ -233,7 +235,7 @@ int main(){
 
 ~~GPT与MBR那些纠缠不清的故事~~
 
-[堆栈]->是一种数据结构push，pop
+[堆栈]->是一种数据结构，mov,add,push,pop
 
 2^16=65536
 
@@ -289,7 +291,8 @@ linux可以用nasm
 
 那么eax的值将变为1234h，所以对ax的赋值是会影响eax的,AH是ax的高8位，而AL是ax的低8位，这就是说ah为12h，al为34h
 
-#__*TCP/IP*__
+###TCP/IP
+__*TCP/IP*__
 
 [tcp/ip](https://www.w3school.com.cn/tcpip/index.asp)
 
