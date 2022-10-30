@@ -21,9 +21,7 @@ I'm freshman don't spray me.<br>
 ```
 
 #include <stdio.h>
-
 int main() {
-
     int array[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
 
     for(int i= 0;i <=10;i++)
@@ -217,7 +215,7 @@ int main(){
 指针就不讲了，后面再看~~
 
 ##汇编语言篇
-1.*__汇编啊额__*
+1.*__汇编额__*
 
 ```
 
@@ -303,3 +301,63 @@ __*TCP/IP*__
 [ipv6的头结构](https://blog.csdn.net/weixin_44135544/article/details/103203716)
 
 [计算机中的大端存储和小端存储](https://blog.csdn.net/kenfan1647/article/details/117765744)
+
+[nasmcsdn学习](https://blog.csdn.net/gyrfalcon_sky/article/details/21572995?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-3-21572995-blog-51636602.pc_relevant_recovery_v2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-3-21572995-blog-51636602.pc_relevant_recovery_v2&utm_relevant_index=5)
+
+ *GMR磁头继承了TFI磁头和AMR磁头中采用的读/写技术*
+
+MR磁阻
+
+薄膜感应（TFI）磁头
+
+各向异性磁阻（AMR）磁头
+
+GMR（巨磁阻）
+
+MHDD是俄罗斯Maysoft公司出品的专业硬盘工具软件，具有很多其他硬盘工具软件所无法比拟的强大功能，它分为免费版和收费的完整版
+
+CHS寻址模式将硬盘划分为磁头（Heads）、柱面(Cylinder)、扇区(Sector)
+
+硬盘容量=磁头数×柱面数×扇区数×512字节
+
+在DOS中每扇区是128×2^2=512字节
+
+[lba简介](https://www.cnblogs.com/mlzrq/p/10223060.html)
+
+[chs和lba的关系](https://www.cnblogs.com/wsw-seu/p/10565631.html)
+
+主板上第一个IDE接口连接的硬盘：主盘IDE0，从盘IDE1；主板上第二个IDE接口连接的硬盘：主盘IDE2，从盘IDE3
+
+IDE集成开发环境是用于提供程序开发环境的应用程序，一般包括代码编辑器、编译器、调试器和图形用户界面等工具。
+
+IDE集成了代码编写功能、分析功能、编译功能、调试功能等一体化的开发软件服务套。所有具备这一特性的软件或者软件套都可以叫集成开发环境。该程序可以独立运行，也可以和其它程序并用。
+
+`主引导记录（MBR，Master Boot Record）是采用MBR分区表的硬盘的第一个扇区，即C/H/S地址的0柱面0磁头1扇区，也叫做MBR扇区。 `
+
+`有时也将其开头的446字节内容特指为“主引导记录”（MBR），其后是4个16字节的“磁盘分区表”（DPT），以及2字节的结束标志（55AA)`
+
+![](https://bkimg.cdn.bcebos.com/pic/d6ca7bcb0a46f21fbe0941b9f76d7c600c338644008a?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U4MA==,g_7,xp_5,yp_5)
+
+[主引导记录](https://baike.baidu.com/item/主引导记录/7612638?fromtitle=mbr&fromid=10473976&fr=aladdin)
+
+[Python常见的几种数据加密方式](https://blog.csdn.net/m0_60255218/article/details/126009780)
+
+[python加密打包（保护python源代码）](https://www.csdn.net/tags/Mtjacg1sMzg1MDEtYmxvZwO0O0OO0O0O.html)
+
+[python源码加密](https://zhuanlan.zhihu.com/p/393834590)
+
+[Windows 取证之$MFT](https://baijiahao.baidu.com/s?id=1703440176446335437&wfr=spider&for=pc)
+
+[mbr勒索木马](http://www.manongjc.com/detail/50-mrevckycaiggqvm.html)
+
+[使用dd命令备份MBR分区表](https://wenku.baidu.com/view/dc3f373a660e52ea551810a6f524ccbff121caf5.html)
+
+[DBR](https://baike.baidu.com/item/DBR/4998996?fr=aladdin)
+
+[arp报文结构学习](https://zhuanlan.zhihu.com/p/453814298)
+
+[互联网消息访问协议-版本4rev1](https://www.rfc-editor.org/rfc/rfc3501)
+
+[setsockopt](https://blog.csdn.net/u010144805/article/details/78579771)
+
+[dvwahelp](https://developer.mozilla.org/en-US/docs/Web)
